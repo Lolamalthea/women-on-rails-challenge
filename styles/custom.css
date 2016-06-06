@@ -33,13 +33,22 @@
   max-width: inherit;
 }
 
+h1, h2 {
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+body {
+  font-family: 'Josefin Slab', serif;
+  background-color: #FAFAFA;
+}
+
 /**********************************************/
 /************ General styles ***************/
 /********************************************/
 
 .underline {
   text-decoration: none;
-  box-shadow: inset 0 -6px 0 #50E3C2;
+  box-shadow: inset 0 -6px 0 #AAC1D9;
   color: inherit;
   -webkit-transition: background 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
   transition: background 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
@@ -52,12 +61,13 @@
 
 .item {
   width: 100%;
-  height: 300px; 
+  height: 300px;
   overflow: hidden;
   position: relative;
 }
 
 .item .picture {
+  padding-top: 70px;
   display: block;
   margin: 0 auto;
   width: 100%;
@@ -69,6 +79,21 @@
   left: 50%;
   top: 0;
   margin-left: -100px;
+}
+
+.cartouche {
+  background-color: #335171;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cartouche h3 {
+  margin: 0px;
+}
+
+.cartouche p {
+  margin: 0px;
 }
 
 /**********************************************/
@@ -83,7 +108,7 @@
 }
 
 #presentation {
-  background-color: #50E3C2;
+  background-color: #7298C0;
   padding: 20px 0;
 }
 
